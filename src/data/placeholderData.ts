@@ -323,7 +323,7 @@ export const REAL_ESTATE_ADVISOR = {
   telefono: '635 475 213',
   whatsapp: '635 475 213',
   email: 'magdalena@suhogarsevilla.com',
-  horario: 'Lunes a Viernes de 9:00 a 20:00 · Sábados de 10:00 a 14:00',
+  horario: 'Lunes a Viernes de 9:00 a 14:00 y de 16:30 a 19:30',
   avatarUrl: 'https://res.cloudinary.com/dbaan8ofb/image/upload/v1790182379/Captura_de_pantalla_2026-09-17_173757_z1q3qf.jpg',
 };
 
