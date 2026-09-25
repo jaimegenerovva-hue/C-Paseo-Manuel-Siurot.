@@ -9,7 +9,8 @@ export const GallerySection: React.FC = () => {
   const mainPhoto = FEATURED_GALLERY_PHOTOS[0];
   const sidePhotos = FEATURED_GALLERY_PHOTOS.slice(1);
 
-  const additionalPhotosCount = GALLERY_PHOTOS.length - FEATURED_GALLERY_PHOTOS.length;
+  // Counter reflecting additional photos requested (+16 fotos, total 17)
+  const additionalPhotosCount = 16;
 
   const openLightbox = (index: number) => {
     setSelectedPhotoIndex(index);
@@ -137,7 +138,7 @@ export const GallerySection: React.FC = () => {
 
         {/* Pie de galería */}
         <div className="mt-5 flex items-center justify-between text-xs text-stone-600 flex-wrap gap-4 border-t border-stone-200/80 pt-3">
-          <p>21 fotografías del inmueble y zonas comunes</p>
+          <p>{GALLERY_PHOTOS.length} fotografías del inmueble y zonas comunes</p>
           <button
             onClick={() => openLightbox(0)}
             className="text-stone-800 hover:text-[#c26d53] underline underline-offset-4 transition-colors font-medium cursor-pointer"

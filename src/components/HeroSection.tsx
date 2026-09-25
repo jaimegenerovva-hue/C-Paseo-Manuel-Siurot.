@@ -4,7 +4,7 @@ import { GALLERY_PHOTOS } from '../data/placeholderData';
 
 export const HeroSection: React.FC = () => {
   const heroImage =
-    'https://res.cloudinary.com/dbaan8ofb/image/upload/v1790097971/ChatGPT_Image_22_sept_2026_19_25_38_fjdnxv.png';
+    'https://res.cloudinary.com/dbaan8ofb/image/upload/v1790351550/Imagen_de_ChatGPT_25_sept_2026_17_50_52_mhmasq.png';
 
   return (
     <section

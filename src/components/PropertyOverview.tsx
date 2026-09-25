@@ -1,6 +1,6 @@
 import React from 'react';
 import { Maximize2, Bed, Waves, Zap, Car, Cpu, MapPin, Compass } from 'lucide-react';
-import { INITIAL_AMENITIES, GALLERY_PHOTOS } from '../data/placeholderData';
+import { INITIAL_AMENITIES, OVERVIEW_THUMBNAILS } from '../data/placeholderData';
 
 const iconMap: Record<string, React.ReactNode> = {
   Maximize2: <Maximize2 className="w-5 h-5 text-[#c26d53]" />,
@@ -13,7 +13,7 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export const PropertyOverview: React.FC = () => {
   // 3 thumbnail photos for below the white card
-  const thumbnails = [GALLERY_PHOTOS[1], GALLERY_PHOTOS[2], GALLERY_PHOTOS[3]];
+  const thumbnails = OVERVIEW_THUMBNAILS;
 
   return (
     <section id="descripcion" className="py-20 md:py-28 bg-[#1c1917] text-[#f5f2eb] border-b border-stone-800">
